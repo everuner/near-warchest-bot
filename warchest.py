@@ -21,8 +21,8 @@ RUN PARAMETERS
 DEBUG = True
 UPDATES_PER_HOUR = 12 # at least 12 for betanet to make sure that bot is executed at least once when epoch percentage is between 95% and 100%
 NODE_ENV = 'betanet' # define blockchain environment
-CONTRACT_NAME = 'validator_italia_contract'
-PATH_TO_JSON_PRIVATE_KEY_FILE_MASTER_ACCOUNT = '/root/.near-credentials/betanet/validator_italia.betanet.json'
+CONTRACT_NAME = 'stakewarspools.fuckit.betanet'
+PATH_TO_JSON_PRIVATE_KEY_FILE_MASTER_ACCOUNT = '/root/.near-credentials/betanet/stakewarspool.fuckit.betanet.json'
 
 AGGRESSIVENESS = 0.4 # between 0 and 1. Eg. 0.1 means lock 10% above estimated seat price
 YOCTO_CONSTANT = 10**24 #how many yocto in 1 unit
